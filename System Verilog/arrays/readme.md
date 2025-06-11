@@ -30,7 +30,7 @@
   > $display("size=%d",a.size());
   > end
 > endmodule
-
+>
 >•	OUTPUT :     size=          1
 >```
 
