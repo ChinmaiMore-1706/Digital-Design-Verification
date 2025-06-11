@@ -20,4 +20,18 @@
 >•	dyn2='{'{}, '{}, '{}, '{}}
 >```
 
+## implementation of associative array
+>```
+> •	CODE:
+> module test;
+ > int a[int];
+ > initial begin
+ > a[500]=100;
+  > $display("size=%d",a.size());
+  > end
+> endmodule
+
+>•	OUTPUT :     size=          1
+>```
+
 
